@@ -1,21 +1,41 @@
 *{
     margin: 0;
     padding: 0;
+    
+    scroll-behavior: smooth;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 body{
-    background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+    
+    background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+    
+    /*background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);*/
 }
 
 .navegacion{
     height: 100vh;
     width: 100%;
-    background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+    background-color: #21D4FD;
+   /* background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+   background-image: linear-gradient(-225deg, #FF057C 0%, #8D0B93 50%, #321575 100%);
+   background-image: linear-gradient(-225deg, #FF3CAC 0%, #562B7C 52%, #2B86C5 100%);
+   background-image: linear-gradient(-225deg, #5271C4 0%, #B19FFF 48%, #ECA1FE 100%);
+   background-image: linear-gradient(to right, #ec77ab 0%, #7873f5 100%);
 
-    
+    A partir de aca me gustan:
+   background-image: linear-gradient(to top, #b224ef 0%, #7579ff 100%);
+   background-image: linear-gradient(to top, #7028e4 0%, #e5b2ca 100%);
+   */
     background-size: cover;
     background-position: center;
+    
+
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    
+    
+    
+    
 }
 
 nav{
@@ -174,13 +194,68 @@ button:hover{
     cursor: pointer;
 }
 
-
-
-
-
-
-
-
+.servicio{
+    background:#101010;
+    width: 100%;
+    padding: 100px 0px;
+}
+.titulo h2{
+    color: white;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.card{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #191919;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: #f9004d;
+}
+h5{
+    color: white;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+.pra p{
+    color: #fcfc;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+.card .button{
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: .4s;
+}
+.card .button:hover{
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+}
 
 
 
@@ -219,7 +294,7 @@ footer{
     position: relative;
     width: 100%;
     height: 400px;
-    background: #101010;
+    background: #191919;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -264,3 +339,4 @@ footer p:nth-child(2){
     bottom: 35px;
     font-size: 14px;
 }
+
