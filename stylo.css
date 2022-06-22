@@ -333,10 +333,11 @@ footer p:nth-child(2){
     transform: scale(1.3);
     transition: .3s;
 }
-.final{
+.Final{
     position: absolute;
     color: #f9004d;
     bottom: 35px;
     font-size: 14px;
+    color: white;
 }
 
