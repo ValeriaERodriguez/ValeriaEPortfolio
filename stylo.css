@@ -290,6 +290,44 @@ h5{
     border: 2px solid #f9004d;
     cursor: pointer;
 }
+.form{
+    background-color: #ffff;
+    margin: auto;
+    width: 90%;
+    max-width: 400px;
+    padding: 4.5em 3em;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px -5px rgb(0, 0, 0 / 30%);
+    text-align: center;
+}
+.form-contenedor{
+    margin-top: 3em;
+    display: grid;
+    gap: 2.5em;
+}
+.form-grupo{
+    position: relative;
+    --color: #5757577e;
+}
+.form-input{
+    width: 100%;
+    background: none;
+    color: #706c6c;
+    font-size: 1rem;
+    padding: .6rem .3rem;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid var(--color);
+}
+.form-label{
+    color: var(--color);
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 5px;
+    transform: translateY(10px);
+    transition: transform .5s, color .3s;
+}
 footer{
     position: relative;
     width: 100%;
