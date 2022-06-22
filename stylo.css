@@ -384,4 +384,27 @@ footer p:nth-child(2){
     font-size: 14px;
     color: white;
 }
-
+/*Esto es una copia de código de la página SC, que arme como primeros projectos. Es un ajuste de los iconos de redes sociales*/
+.social-media{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+.social-media-icon{
+    display: inline-block;
+    margin-left: 20px;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+}
+.social-media-icon:hover{
+    background: #fff;
+    color: #764ba2;
+}
+.social-media-icon i{
+    font-size: 30px;
+    line-height: 60px;
+}
