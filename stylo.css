@@ -316,7 +316,7 @@ footer p:nth-child(2){
 .social{
     display: flex;
 }
-.social a{
+.social a i{
     width: 45px;
     height: 45px;
     display: flex;
