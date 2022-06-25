@@ -427,7 +427,7 @@ footer p:nth-child(2){
     line-height: 60px;
 }
 
-@media (max-width:425px){
+@media (max-width:991px){
 
     .form-contenedor{
         font-size: 1.8rem;
