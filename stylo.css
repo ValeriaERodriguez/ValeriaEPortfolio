@@ -198,6 +198,10 @@ button:hover{
     background:#101010;
     width: 100%;
     padding: 100px 0px;
+    display: grid;
+    grid-column-start:1 ;
+    grid-column-end: 3;
+    gap: 50px;
 }
 .titulo h2{
     color: white;
