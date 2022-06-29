@@ -147,20 +147,17 @@ h4{
 }
 .skills__line{
     display: flex;
-flex-direction: row;
-align-items: flex-start;
-padding: 0px;
-gap: 16px;
-
-width: 1136px;
-height: 174px;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
 
 
 
 
-flex: none;
-order: 1;
-flex-grow: 0;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
 /* Inside auto layout 
     display: flex;
     flex-wrap: wrap;
@@ -361,23 +358,12 @@ h5{
     border: 2px solid #f9004d;
     cursor: pointer;
 }
-.experience{ 
-
-    
- 
+.experience{  
     border-radius: 0px;
-
-/* Experiencia area */
-
-
-/* Auto layout */
-
     display: flex;
     flex-direction: column;
     align-items: center;
-    
     gap: 32px;
-
 
 /* Azul/10% */
 
