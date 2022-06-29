@@ -123,14 +123,10 @@ h4{
 .skills{
     margin: 64px 100px;
     display: flex;
-flex-direction: column;
-align-items: center;
-padding: 0px;
-gap: 32px;
-
-width: 1136px;
-height: 244px;
-
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 32px;
 
 /* Inside auto layout */
 
@@ -150,20 +146,12 @@ flex-grow: 0
 }
 .skills__line{
     display: flex;
-flex-direction: row;
-align-items: flex-start;
-padding: 0px;
-gap: 16px;
-
-width: 1136px;
-height: 174px;
-
-
-
-
-flex: none;
-order: 1;
-flex-grow: 0;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 16px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
 /* Inside auto layout 
     display: flex;
     flex-wrap: wrap;
@@ -365,50 +353,19 @@ h5{
     cursor: pointer;
 }
 .experience{ 
-height: 1886px;
-width: 1136px;
-left: 152px;
-top: 2212px;
+
 border-radius: 0px;
 
-/* Experiencia area */
-
-
-/* Auto layout */
-
-display: flex;
-flex-direction: column;
 align-items: center;
-padding: 82px;
-gap: 32px;
-
-width: 1440px;
-height: 581px;
-
-/* Azul/10% */
-
-background: #EAF2FD;
-
-/* Inside auto layout */
-
-flex: none;
-order: 2;
-align-self: stretch;
-flex-grow: 0;
 
 }
 
 .experiencie__box{
-
-
 display: flex;
 flex-direction: column;
 align-items: center;
 padding: 0px;
 gap: 32px;
-
-width: 1136px;
-height: 1886px;
 
 
 /* Inside auto layout */
@@ -422,7 +379,7 @@ flex-grow: 0;
 
 .contacto{
     width: 100%;
-    height: 700px;
+    height: 100vh;
     background: #191919;
     display: flex;
     align-items: center;
