@@ -362,34 +362,33 @@ h5{
     cursor: pointer;
 }
 .experience{ 
-height: 1886px;
-width: 1136px;
-left: 152px;
-top: 2212px;
-border-radius: 0px;
+
+    left: 152px;
+    top: 2212px;
+    border-radius: 0px;
 
 /* Experiencia area */
 
 
 /* Auto layout */
 
-display: flex;
-flex-direction: column;
-align-items: center;
-padding: 82px;
-gap: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 82px;
+    gap: 32px;
 
 
 /* Azul/10% */
 
-background: #EAF2FD;
+    background: #EAF2FD;
 
 /* Inside auto layout */
 
-flex: none;
-order: 2;
-align-self: stretch;
-flex-grow: 0;
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
 
 }
 
@@ -413,7 +412,7 @@ flex-grow: 0;
 
 .contacto{
     width: 100%;
-    height: 700px;
+    
     background: #191919;
     display: flex;
     align-items: center;
@@ -470,7 +469,7 @@ flex-grow: 0;
     margin-top: 3em;
     display: grid;
     gap: 2.5em;
-    width: 550px;
+    width: 100%;
 }
 .form-grupo{
     position: relative;
