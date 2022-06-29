@@ -181,10 +181,8 @@ flex-grow: 0;
     width: 150px;
     height: 160px;
 }
-.skills__box ul{
 
-}
-/*
+
 .main{
     width: 1130px;
     max-width: 95%;
@@ -192,7 +190,7 @@ flex-grow: 0;
     display: flex;
     align-items: center;
     justify-content: space-around;
-}*/
+}
 .sobre-texto h2{
     color: white;
     font-size: 75px;
@@ -361,6 +359,59 @@ h5{
     background-color: transparent;
     border: 2px solid #f9004d;
     cursor: pointer;
+}
+.experience{ 
+height: 1886px;
+width: 1136px;
+left: 152px;
+top: 2212px;
+border-radius: 0px;
+
+/* Experiencia area */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 82px;
+gap: 32px;
+
+width: 1440px;
+height: 581px;
+
+/* Azul/10% */
+
+background: #EAF2FD;
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.experiencie__box{
+
+
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 32px;
+
+width: 1136px;
+height: 1886px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 4;
+flex-grow: 0;
 }
 
 
@@ -554,3 +605,43 @@ footer p:nth-child(2){
         font-size: 1.8rem;
     }
 }
+
+/*Tablet*/
+@media (min-width: 768px) {
+
+    /* Menú */
+    
+    /*title*/
+    
+    /*Skills*/
+    
+    /*Hobbies*/
+    
+    /*Formación Académica*/
+    
+    /*Experiencia Profesional*/
+    
+    }
+    
+    /*Mobile*/
+    @media (min-width: 425px) {
+    
+    /*Menu*/
+    
+    /*Titulo*/
+    
+    /*Sección sobre mi*/
+    
+    /*Skills*/
+    
+    /*Hobbies*/
+     
+    /*Formación Académica*/
+    
+    /*Experiencia Profesional*/
+    
+     /*Contacto*/
+    
+    /*Footer*/
+    
+    }
