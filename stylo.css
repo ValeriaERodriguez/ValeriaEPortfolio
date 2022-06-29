@@ -363,8 +363,8 @@ h5{
 }
 .experience{ 
 
-    left: 152px;
-    top: 2212px;
+    
+ 
     border-radius: 0px;
 
 /* Experiencia area */
@@ -375,7 +375,7 @@ h5{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 82px;
+    
     gap: 32px;
 
 
