@@ -95,6 +95,7 @@ h1{
 h2{
     color: white;
     font-size: 25px;
+    margin-left: 5px;
     
 }
 h3{
@@ -117,10 +118,16 @@ h4{
 .sobre-mi img{
     height: auto;
     width: 430px;
-    padding: 0px 0px 20px;
+    
+}
+.emoji{
+    width: 50%;
+    
+    float: left;
 }
 .sobre-texto{
     width: 550px;
+    display: flex;
 }
 .skills{
     margin: 64px 100px;
@@ -185,10 +192,8 @@ h4{
 
 
 .main{
-    width: 1130px;
-    max-width: 95%;
-    margin: 0 auto;
-    display: flex;
+    
+    display: inline-block;
     align-items: center;
     justify-content: space-around;
 }
@@ -196,7 +201,8 @@ h4{
     color: white;
     font-size: 75px;
     text-transform: capitalize;
-    margin-bottom: 20px;
+    
+    margin: 0 20px 10px 5px;
 }
 .sobre-texto h5{
     color: white;
@@ -206,11 +212,13 @@ h4{
     text-transform: capitalize;
 }
 .sobre-texto p{
+    
     color: #fcfc;
     letter-spacing: 1px;
     line-height: 28px;
     font-size: 18px;
     margin-bottom: 45px;
+    margin: 0 auto;
 }
 button{
     background-color: #f9004d;
@@ -246,13 +254,20 @@ button:hover{
 }
 .box{
     display: grid;
-    grid-template-columns: repeat(auto-file, minmax(225px, 1fr));
-    
-
-    
+    grid-template-columns: repeat(auto-file, minmax(225px, 1fr));    
     margin: 0 auto;
     gap: 20px;
     max-width: 1000px;
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+.productos{
+    width: 940px;
+    margin: 0 auto;
+}
+.productos li{
+    display: inline-block;
 }
 /*
 .card{
@@ -365,54 +380,25 @@ h5{
     border: 2px solid #f9004d;
     cursor: pointer;
 }
-<<<<<<< HEAD
-.experience{ 
 
-border-radius: 0px;
-
-align-items: center;
-=======
-.experience{  
+.experience{
     border-radius: 0px;
-    display: flex;
-    flex-direction: column;
     align-items: center;
     gap: 32px;
-
-/* Azul/10% */
-
-    background: #EAF2FD;
-
-/* Inside auto layout */
-
     flex: none;
     order: 2;
     align-self: stretch;
     flex-grow: 0;
->>>>>>> 5018db0d99fe33cd03c4094b79d70d785dc3fec6
 
 }
 
 .experiencie__box{
-<<<<<<< HEAD
-display: flex;
-flex-direction: column;
-align-items: center;
-padding: 0px;
-gap: 32px;
-
-=======
-
 
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 0px;
     gap: 32px;
->>>>>>> 5018db0d99fe33cd03c4094b79d70d785dc3fec6
-
-/* Inside auto layout */
-
     flex: none;
     order: 4;
     flex-grow: 0;
@@ -422,11 +408,7 @@ gap: 32px;
 
 .contacto{
     width: 100%;
-<<<<<<< HEAD
     height: 100vh;
-=======
-    
->>>>>>> 5018db0d99fe33cd03c4094b79d70d785dc3fec6
     background: #191919;
     display: flex;
     align-items: center;
@@ -457,7 +439,7 @@ gap: 32px;
 }
 .form{
     position: relative;
-    background-color: #ffff;
+    background-color: none;
     margin: auto;
     width: 100%;
     padding: 15px 15px;
