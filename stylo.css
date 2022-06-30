@@ -136,12 +136,6 @@ h4{
     align-items: center;
     padding: 0px;
     gap: 32px;
-<<<<<<< HEAD
-=======
-
-   
-    height: 244px;
->>>>>>> 5018db0d99fe33cd03c4094b79d70d785dc3fec6
 
 
 }
@@ -159,16 +153,10 @@ h4{
     
     flex-direction: row;
     align-items: flex-start;
-<<<<<<< HEAD
     gap: 16px;
-=======
+
     padding: 0px;
     gap: 16px;
-
-
-
-
->>>>>>> 5018db0d99fe33cd03c4094b79d70d785dc3fec6
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -252,7 +240,7 @@ button:hover{
     text-align: center;
 }
 .box{
-    
+    display: grid;
     grid-template-columns: repeat(auto-file, minmax(225px, 1fr));    
     margin: 0 auto;
     gap: 20px;
@@ -269,6 +257,38 @@ button:hover{
     display: inline-block;
 }
 /*
+.cards {
+    --cols: 3;
+    --gap: 30px;
+    --padding: 36px;
+    --grid-flow: column;
+    --max-width: 1214px;
+    display: grid;
+    grid-template-columns: repeat(var(--cols), minmax(0, 1fr));
+    grid-auto-flow: var(--grid-flow);
+    grid-gap: var(--gap);
+    max-width: var(--max-width);
+    padding: 70px 20px 0 20px;
+    margin: auto;
+}
+
+.section-hero .card-k12 {
+    background: #e9bfde;
+}
+.section-spotlight .cards{
+    
+}
+cards .card .column-copy {
+    padding: var(--padding);
+}
+
+.section-spotlight .card .column-copy {
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    --padding: 0 60px;
+}
 .card{
     margin: 0 auto;
 `   max-width: 1000px;
@@ -312,8 +332,8 @@ button:hover{
     text-decoration: underline;
 }*/
 .card{
-    
-    padding: 20px 35px;
+
+    padding: 20px 300px;
     background: #191919;
     border-radius: 20px;
     margin: 15px;
@@ -330,7 +350,7 @@ button:hover{
 .card i{
     font-size: 50px;
     display: block;
-    text-align: center;
+    
     margin: 25px 0px;
     color: #f9004d;
 }
