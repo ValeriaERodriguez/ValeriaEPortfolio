@@ -1,0 +1,78 @@
+/*.cards {
+    --cols: 3;
+    --gap: 30px;
+    --padding: 36px;
+    --grid-flow: column;
+    --max-width: 1214px;
+    display: grid;
+    grid-template-columns: repeat(var(--cols), minmax(0, 1fr));
+    grid-auto-flow: var(--grid-flow);
+    grid-gap: var(--gap);
+    max-width: var(--max-width);
+    padding: 70px 20px 0 20px;
+    margin: auto;
+}
+.section-hero {
+    background: #f5f5f7;
+    text-align: center;
+    padding: 140px 0;
+}
+.section-hero .cards {
+    --gap: 31px;
+    --cols: 3;
+    --grid-flow: columns;
+}
+.cards .card {
+    overflow: hidden;
+    border-radius: 20px;
+}
+.section-hero .card-k12 {
+    background: #e9bfde;
+}
+*/
+
+
+.cards .card {
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+}
+.section-spotlight {
+    background: #f5f5f7;
+    text-align: center;
+    padding: 140px 0;
+}
+.section-spotlight {
+    background: #f5f5f7;
+    text-align: center;
+    padding: 140px 0;
+}
+
+.large-6 {
+    flex-basis: 50%;
+    max-width: 50%;
+}
+.column {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    min-width: 0px;
+}
+.section-spotlight .card .image {
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+figure {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+}
