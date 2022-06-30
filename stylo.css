@@ -95,13 +95,15 @@ h1{
 h2{
     color: white;
     font-size: 25px;
-    margin-left: 5px;
-    
+    margin-left: 165px;
+    margin-top: -350px;
 }
 h3{
     color: white;
     font-size: 25px;
     margin-bottom: 50px;
+    margin-top: -279px;
+    margin-left: 162px;
 }
 h4{
     color: #fcfcfc;
@@ -332,38 +334,29 @@ cards .card .column-copy {
     text-decoration: underline;
 }*/
 .card{
-
+    width: fit-content;
     padding: 20px 300px;
     background: #191919;
     border-radius: 20px;
     margin: 15px;
-    
     overflow: hidden;
-    
     display: grid;
     grid-template-columns: repeat(auto-file, minmax(225px, 1fr));
 }
-.card-img{
-    width: 100%;
-    display: block;
-}
-.card i{
-    font-size: 50px;
-    display: block;
-    
-    margin: 25px 0px;
-    color: #f9004d;
-}
+
+/* 
 h5{
     color: white;
     font-size: 23px;
     margin-bottom: 15px;
-}
+} */
 .pra p{
     color: #fcfc;
     font-size: 16px;
     line-height: 27px;
     margin-bottom: 25px;
+    margin-left: 165px;
+    margin-top: -200px;
 }
 .card .button{
     background-color: #f9004d;
@@ -423,7 +416,23 @@ h5{
     order: 4;
     flex-grow: 0;
 }
-
+.section-spotlight .card-equality .image {
+    position: relative;
+    left: 50%;
+    margin-left: -305px;
+    min-height: 420px;
+}
+.section-spotlight .card .image {
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+ .experience__img{
+    
+    height: 420px;
+    background-size: 610px 420px;
+    margin-left: -300px;
+}
 
 
 .contacto{
