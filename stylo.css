@@ -345,15 +345,15 @@ cards .card .column-copy {
     text-decoration: underline;
 }*/
 .card{
-    height: 365px;
-    width: 335px;
-    padding: 20px 35px;
+    
+    
+    padding: 20px 300px;
     background: #191919;
     border-radius: 20px;
     margin: 15px;
-    position: relative;
+    
     overflow: hidden;
-    text-align: center;
+    
     display: grid;
     grid-template-columns: repeat(auto-file, minmax(225px, 1fr));
 }
