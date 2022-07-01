@@ -12,8 +12,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="stylo.css">
     <link rel="stylesheet" href="cards.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">    
 
-    
     <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
@@ -27,19 +27,20 @@
                 <li><a href="#proyecto">PROYECTOS</a></li>
                 <li><a href="#contacto">CONTACTO</a></li>
             </ul>
-            <!--<a href="#" class="btn">Descargar CV</a>-->
+           
         </nav>
 
         <div class="contenedor">
             
-            <h2>Hola, mi nombre es</h2>
-            <h1> Valeria <span>Rodriguez</span></h1>
-            <h3>Soy desarrolladora mobile iOS y Kotlin. Desarrolladora Front-End</h3>
+            <h2 style="color:white ;">Hola, mi nombre es</h2>
+            <h1 style="color:white ;"> Valeria <span>Rodriguez</span></h1>
+            <h3 style="color:white ;">Soy desarrolladora mobile iOS y Kotlin. Desarrolladora Front-End</h3>
             
         </div>
     </div>
 
     <!--Comienzo de la seccion sobre mi-->
+
     <section class="sobre-mi" id="sobre-mi">
         <img src="/IMGENES/Screen Shot 2022-06-18 at 22.13.00.png" alt="Emoji" class="emoji">
         <div class="main">
@@ -58,7 +59,7 @@
                 
                    <!-- Sección de Skills -->
 
-                   <div class="skills">
+                   <!-- <div class="skills">
                 
                     <h3>SKILLS</h3>
                     <P>HTML</P><img src="assets\htlm.png">
@@ -116,11 +117,11 @@
                     </ul>
                 </div>
         </div>
-    </section>
+    </section> -->
      <!-- Sección de Hobbies -->
 
 
-     <h3>HOBBIES</h3>
+     <!-- <h3>HOBBIES</h3>
         <ul>  
      <li>Tocar la guitarra</li>
      <li>Armar rompe cabezas</li>
@@ -175,7 +176,7 @@
                     </ul>
                 </div>
         </div>
-    </section>
+    </section> -->
 
                 
                  <button type="button" class="btn">Descargar CV</button>
@@ -184,13 +185,93 @@
     </section>
 
     <!--Seccion de Proyectos-->
-    <div class="servicio" id="proyecto">
+
+    <div class="proyecto" id="proyecto">
         <div class="titulo">
             <h2>PROYECTOS</h2>
         </div>
-        <div class="box">
+        <div class="card mb-3" id="cardsB" style="max-width: 1040px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="/IMGENES/Screen Shot 2022-06-29 at 00.03.56.png" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Encriptador De Texto</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-muted">challenge-Oracle</small></p>
+                  <span><a href="https://github.com/ValeriaERodriguez/Encriptador-ChallengeAlura"><button class=".btn">Repositório</button></a></span>
+                  <span><a href="https://valeriaerodriguez.github.io/Encriptador-ChallengeAlura/"><button class=".btn">Ver demo</button></a></span>
+                    
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card mb-3" id="cardsB" style="max-width: 1040px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="IMGENES/Screen Shot 2022-06-30 at 19.32.44.png" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Juego Del Ahorcado</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                 
+                    <button class="experiencia__botao--repo"></button>
+                    <a href="https://github.com/ValeriaERodriguez/Encriptador-ChallengeAlura">Repositório</a></button>
+                
+                  <span class="experience__demo"><a href="https://valeriaerodriguez.github.io/Encriptador-ChallengeAlura/"><button class="experience__botao--demo">Ver demo</button></a></span>
+                    
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="card mb-3" id="cardsB" style="max-width: 1040px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="/IMGENES/Screen Shot 2022-06-30 at 19.38.20.png" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Sentido Contrario</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  <span class="experience__repo"><a href="https://github.com/ValeriaERodriguez/SentidoContrario"><button class="experiencia__botao--repo">Repositório</button></a></span>
+                  <span class="experience__demo"><a href="https://sentidocontrario.netlify.app/"><button class="experience__botao--demo">Ver demo</button></a></span>
+                    
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="card mb-3" id="cardsB" style="max-width: 1040px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="/IMGENES/Screen Shot 2022-06-30 at 19.41.33.png" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Bateria Virtual</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  <span class="experience__repo"><a href="https://github.com/ValeriaERodriguez/Drum-virtual"><button class="experiencia__botao--repo">Repositório</button></a></span>
+                  <span class="experience__demo"><a href="https://valeriaerodriguez.github.io/Drum-virtual/"><button class="experience__botao--demo">Ver demo</button></a></span>
+                
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+<!-- 
+        <div class="box-main">-->
             
-            <!--Targeta 1-->
+            <!--Targeta 1
             <div class="card">
                 <img src="/IMGENES/Screen Shot 2022-06-29 at 00.03.56.png" alt="" class="experience__img">
                 <i class="fa-solid fa-bars"></i>
@@ -202,15 +283,15 @@
                         Placeat vero amet quis quaerat neque consectetur voluptas
                         </p>
 
-                        <div class="experience__description">
-                            <!-- Pon el enlace del proyecto en Github o GithubPages -->
+                        <div class="experience__description">-->
+                            <!-- Pon el enlace del proyecto en Github o GithubPages 
                             <span class="experience__repo"><a href="https://github.com/ValeriaERodriguez/Encriptador-ChallengeAlura"><button class="experiencia__botao--repo">Repositório</button></a></span>
                             <span class="experience__demo"><a href="https://valeriaerodriguez.github.io/Encriptador-ChallengeAlura/"><button class="experience__botao--demo">Ver demo</button></a></span>
                     </div>
                     </p>
                 </div>
-            </div>
-            <!--Tarjeta 2-->
+            </div>-->
+            <!--Tarjeta 2
             <div class="card">
                 <i class="fa-regular fa-user"></i>
                 <h5>Juego del ahorcado</h5>
@@ -223,14 +304,14 @@
 
                     
                         <div class="experience__description">
-                            <!-- Pon el enlace del proyecto en Github o GithubPages -->
+                            <!-- Pon el enlace del proyecto en Github o GithubPages 
                             <span class="experience__repo"><a href="https://github.com/alura-challenges/challenge-one-encriptador-latam" target="_blank"><button class="experiencia__botao--repo">Repositório</button></a></span>
                             <span class="experience__demo"><a href="https://valeriaerodriguez.github.io/JuegoDeAhorcado-ChallengeAlura/" target="_blank><button class="experience__botao--demo">Ver demo</button></a></span>
                     </div>
                     </p>
                 </div>
-            </div>
-            <!--Tarjeta 3-->
+            </div>-->
+            <!--Tarjeta 3
             <div class="card">
                 <i class="fa-regular fa-bell"></i>
                 <h5>Web developement</h5>
@@ -246,52 +327,22 @@
                     </p>
                 </div>
             </div>
-            <div class="card">
-                <i class="fa-regular fa-bell"></i>
-                <h5>Web developement</h5>
-                <div class="pra">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Placeat vero amet quis quaerat neque consectetur voluptas
-                         beatae facilis impedit voluptate 
-                        ullam quas saepe deserunt distinctio,
-                         dolorem eos ratione ad ipsa.</p>
-
-                    <p style="text-align: center;">
-                        <a class="button" href="#">Read More</a>
-                    </p>
-                </div>
             </div>
-            <div class="card">
-                <i class="fa-regular fa-bell"></i>
-                <h5>Web developement</h5>
-                <div class="pra">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Placeat vero amet quis quaerat neque consectetur voluptas
-                         beatae facilis impedit voluptate 
-                        ullam quas saepe deserunt distinctio,
-                         dolorem eos ratione ad ipsa.</p>
 
-                    <p style="text-align: center;">
-                        <a class="button" href="#">Read More</a>
-                    </p>
-                </div>
-            </div>
+
+
             
-            </div>
+        </div> 
+        <a href="#" class="buttonVM">Ver Mas</a>
+    </div>-->
 
-
-
-            <a href="#" class="buttonVM">Ver Mas</a>
-        </div>
-        
-    </div>
 
 
    
     
     <!--Contacto-->
     <div class="contacto" id="contacto">
-        <p>Mandame mensaje</p>
+        <p>CONTACTO</p>
        <!-- <a class="button-two" href="#">Contratame</a>  -->
         <div>
             <form>
@@ -349,5 +400,30 @@
 
         </div>
     </footer>
+
+
+    <!-- <section class="services contenedor" id="services">
+        <h2 class="subtitulo">Nuestro servicio</h2>
+        <div class="contenedor-servicio">
+        <img src="img/Checklist_Isometric.svg" alt="">
+        <div class="checklist-servicio">
+            <div class="service">
+                <h3 class="n-service"><span class="number">1</span>Diseño web</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem dicta,
+                     repellat officiis quis illum dolore optio. Alias a cumque odio.</p>
+            </div>
+            <div class="service">
+                <h3 class="n-service"><span class="number">2</span>Diseño web</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem dicta,
+                     repellat officiis quis illum dolore optio. Alias a cumque odio.</p>
+            </div>
+            <div class="service">
+                <h3 class="n-service"><span class="number">3</span>Diseño web</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem dicta,
+                     repellat officiis quis illum dolore optio. Alias a cumque odio.</p>
+            </div>
+        </div>
+    </div>
+    </section> -->
 </body>
 </html>
