@@ -42,7 +42,7 @@
     <!--Comienzo de la seccion sobre mi-->
 
     <section class="sobre-mi" id="sobre-mi">
-        <img src="/IMGENES/Screen Shot 2022-06-18 at 22.13.00.png" alt="Emoji" class="emoji">
+        <img src="/IMGENES/Screen Shot 2022-06-18 at 22.13.00.png" alt="emoji" >
         <div class="main">
             
             <div class="sobre-texto">
@@ -345,7 +345,7 @@
         <p>CONTACTO</p>
        <!-- <a class="button-two" href="#">Contratame</a>  -->
         <div>
-            <form>
+            <form id="form" action="" class="form">
                 <h2 class="form-titulo"></h2>
                 <p></p>
                 <div class="form-contenedor">
@@ -373,6 +373,7 @@
                     <input type="submit" class="form-submit" value="Enviar">
                 </div>
             </form>
+            <a href="mailto:valeriaelisabetrgz@gmail.com" id="trucazo"></a>
         </div>
     </div>
 
@@ -425,5 +426,22 @@
         </div>
     </div>
     </section> -->
+
+  
+        
+        
+          <script>
+        const $form = document.querySelector('#form')
+        const $buttonMailto = document.querySelector('#trucazo')
+    
+        $form.addEventListener('submit', handleSubmit)
+    
+        function handleSubmit(event) {
+          event.preventDefault()
+          const form = new FormData(this)
+          $buttonMailto.setAttribute('href', `mailto:valeriaelisabetrgz@gmail.com?subject=nombre ${form.get('name')}  correo ${form.get('email')}&body=${form.get('message')}`)
+          $buttonMailto.click()
+        }
+      </script>
 </body>
 </html>
