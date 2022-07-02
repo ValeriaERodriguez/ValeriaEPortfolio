@@ -103,7 +103,7 @@ h3{
 h4{
     color: #fcfcfc;
     letter-spacing: 2px;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .sobre-mi{
@@ -250,12 +250,7 @@ button:hover{
     height: auto;
     margin: 0 5px 0 10px;
 }
-/* 
-h5{
-    color: white;
-    font-size: 23px;
-    margin-bottom: 15px;
-} */
+
 .pra p{
     color: #fcfc;
     font-size: 10px;
@@ -315,8 +310,7 @@ h5{
     color: white;
     font-size: 55px;
     text-align: center;
-    /* margin-bottom: 25px;
-    margin-left: 20px; */
+    
 }
 
 
