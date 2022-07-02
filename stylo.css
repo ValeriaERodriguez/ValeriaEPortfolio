@@ -31,7 +31,7 @@ nav{
 
 .logo{
     color: white;
-    font-size: 35px;
+    font-size: 30px;
     letter-spacing: 1px;
     cursor: pointer;
 } 
@@ -80,7 +80,7 @@ nav ul li a:hover{
 h1{
     color: white;
     margin: 0px 0px 8px 165px;
-    font-size: 75px;
+    font-size: 65px;
     position: relative;
     display: inline-block;
     width: fit-content;
@@ -89,13 +89,13 @@ h1{
 }
 h2{
     color: white;
-    font-size: 25px;
+    font-size: 20px;
     margin-left: 165px;
     margin-top: -350px;
 }
 h3{
     color: white;
-    font-size: 25px;
+    font-size: 18px;
     margin-bottom: 50px;
     margin-top: -279px;
     margin-left: 162px;
@@ -135,7 +135,7 @@ h4{
 
 }
 .skills h3{
-    font-size: 32px;
+    font-size: 25px;
     text-align: center;
 }
 .skills p{
@@ -178,14 +178,14 @@ h4{
 }
 .sobre-texto h2{
     color: white;
-    font-size: 75px;
+    font-size: 65px;
     text-transform: capitalize;
     margin: 0 20px 10px 5px;
 }
 .sobre-texto h5{
     color: white;
     letter-spacing: 2px;
-    font-size: 22px;
+    font-size: 15px;
     margin-bottom: 25px;
     text-transform: capitalize;
 }
@@ -194,7 +194,7 @@ h4{
     color: #fcfc;
     letter-spacing: 1px;
     line-height: 28px;
-    font-size: 18px;
+    font-size: 10px;
     margin-bottom: 45px;
     margin: 0 auto;
 }
@@ -209,7 +209,7 @@ button{
     transition: .4s;
 }
 button:hover{
-    background-color: transparent;
+    background-color: black;
     border: 2px solid #f9004d;
     cursor: pointer;
 }
@@ -221,7 +221,7 @@ button:hover{
 }
 .titulo h2{
     color: white;
-    font-size: 75px;
+    font-size: 55px;
     width: 1130px;
     margin: 0 auto;
     text-align: center;
@@ -245,7 +245,11 @@ button:hover{
     display: grid;
     grid-template-columns: repeat(auto-file, minmax(225px, 1fr));
 }
-
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    margin: 0 5px 0 10px;
+}
 /* 
 h5{
     color: white;
@@ -254,7 +258,7 @@ h5{
 } */
 .pra p{
     color: #fcfc;
-    font-size: 16px;
+    font-size: 10px;
     line-height: 27px;
     margin-bottom: 25px;
     margin-left: 165px;
@@ -309,7 +313,7 @@ h5{
 }
 .contacto h2{
     color: white;
-    font-size: 75px;
+    font-size: 55px;
     margin-bottom: 25px;
     margin-left: 20px;
 }
@@ -391,14 +395,14 @@ footer{
     justify-content: center;
 }
 footer p:nth-child(1){
-    font-size: 30px;
+    font-size: 25px;
     color: white;
     margin-bottom: 20px;
     font-weight: bold;
 }
 footer p:nth-child(2){
     color: white;
-    font-size: 17px;
+    font-size: 10px;
     width: 500px;
     text-align: center;
     line-height: 26px;
