@@ -323,6 +323,7 @@ button:hover{
     border-radius: 10px;
     box-shadow: 0 5px 10px -5px rgb(0, 0, 0 / 30%);
     text-align: center;
+    outline: none;
 
 }
 
@@ -331,8 +332,10 @@ button:hover{
     display: grid;
     gap: 3em;
     width: 150%;
+    outline: none;
 }
 .form-grupo{
+    background: none;
     position: relative;
     --color: #5757577e;
     outline: none;
@@ -349,6 +352,7 @@ button:hover{
     resize: none;
 }
 input{
+    outline: none;
     background: none;
     color: transparent;
 }
