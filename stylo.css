@@ -57,7 +57,8 @@ nav ul li a:hover{
     transition: .4s;
 
 }
-.btn{
+#descarga{
+    margin-top: 10px;
     background-color: #f9004d;
     color: white;
     text-decoration: none;
@@ -67,7 +68,7 @@ nav ul li a:hover{
     border-radius: 30px;
     transition: transform .4s;
 }
-.btn:hover{
+#descarga:hover{
     transform: scale(1.2);
 }
 .contenedor{
@@ -113,15 +114,17 @@ h4{
 
 }
 .sobre-mi img{
+    margin: -20px 97px;
     display: flex;
     height: auto;
-    width: 330px;
+    width: 200px;
     position: absolute;
-    float: left;
+    
 }
 
 .sobre-texto{
-    width: 550px;
+    width: 324px;
+    margin: 15px 35px;
     
 }
 .skills{
@@ -340,7 +343,7 @@ button:hover{
     --color: #5757577e;
     outline: none;
 }
-.form-input{
+.form-input, #message{
     width: 100%;
     background: none;
     color: #706c6c;
