@@ -274,6 +274,14 @@
 
         <div>
             <form  action="https://formspree.io/f/mrgjwzrr"  method="POST">
+
+                <!-- Honeypot -->
+                <input type="text" name="_honey" style="display: none;">
+
+                <!-- Disable captcha -->
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_next" value="https://formspree.io/thanks?language=es/success.html">
+
                 <h2 class="form-titulo"></h2>
                 
                 <div class="form-contenedor">
@@ -355,7 +363,9 @@
     </div>
     </section> -->
 
-
-
 </body>
+<div class="container-contacto">
+    <h1>Contacto Enviado</h1>
+    <p>El mensaje se a enviado con exito</p>
+</div>
 </html>
