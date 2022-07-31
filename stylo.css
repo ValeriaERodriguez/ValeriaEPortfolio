@@ -337,10 +337,10 @@ button:hover{
 }
 
 .form-contenedor{
-    margin-top: 3em;
+    
     display: grid;
     gap: 3em;
-    width: 150%;
+    
     outline: none;
 }
 .form-grupo{
