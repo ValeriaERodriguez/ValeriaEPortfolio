@@ -98,7 +98,6 @@ h3{
     color: white;
     font-size: 18px;
     margin-bottom: 50px;
-    margin-top: -279px;
     margin-left: 162px;
 }
 h4{
@@ -170,14 +169,14 @@ div.skills__box{
     padding: 16px;
     background-color: var(--color-cajas);
     margin: 22px 15px 22px 0;
-    width: 150px;
+    width: 120px;
     height: 160px;
     border-color: var(--color-botones);
     border-style: outset;
     border-width: 2px;
 }
 .skills__line{
-    
+    display: flex;
     flex-direction: row;
     align-items: flex-start;
     gap: 16px;
@@ -188,46 +187,36 @@ div.skills__box{
     flex-grow: 0;
 
 } 
+/*HOBIES*/
 
-/* 
-
-.skills__box{
-    
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: flex-start;
-    padding: 16px;
-    background-color: white;
-    margin: 22px 15px 22px 0;
-    width: 150px;
-    height: 160px;
-}
-*/
-section.hobbies div.hobbies_line {
+.hobbies{
     display: flex;
+    align-items: center;
     flex-wrap: wrap;
-    justify-content: space-around;
-    width: 100%;
+    margin-top: 2vh;
+    width: 150vh;
+    background: #4639ff;
+    border-radius: 2vh;
+    padding: 2%;
+    padding-block: 5%;
 }
-section.hobbies div.hobbies_box {
+.hobbies__line {
     display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: flex-start;
-    padding: 36px;
-    background-color: var(--color-cajas);
-    margin: 22px 15px 22px 0;
-    width: 150px;
-    height: 160px;
+    background-color: #4639ff;
 }
 
-section.hobbies div.hobbies_box ul {
-    padding: 0;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 19px;
-    color: var(--color-titulos);
-    text-align: center;
+.hobbies__box{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 16px;
+    margin: 22px 15px 22px 0;
+    width: 120px;
+    height: 160px;
+    border-color: var(--color-botones);
+    border-style: outset;
+    border-width: 2px;
 }
 
 /*SOBRE MI*/
