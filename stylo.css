@@ -129,37 +129,58 @@ h4{
     margin: 15px 35px;
     flex-direction: column;
 }
-section .skills {
+#skills {
     display: flex;
-    justify-content: flex-start;
+    
     align-items: center;
-    flex-direction: column;
+    
     flex-wrap: wrap;
     margin-top: 2vh;
-    width: 95%;
-    /* height: 70vh; */
-    position: relative;
+    width: 150vh;
+   
     background: #4639ff;
     border-radius: 2vh;
     padding: 2%;
     padding-block: 5%;
 }
-
-/* .skills h3{
-    font-size: 25px;
-    text-align: center;
-}
-.skills p{
-    flex-wrap: wrap;
-    justify-content: space-around;
+.skills h3 {
     width: 100%;
+    text-align: center;
+    font-size: 5vh;
+    padding-bottom: 3%;
+    animation: Opacidad 4s ease;
+}
+.skills li {
+    width: 11%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+
+    padding-block: 5%;
+    font-size: 2vh;
+    width: 33%;
+}
+div.skills__box{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    padding: 16px;
+    background-color: var(--color-cajas);
+    margin: 22px 15px 22px 0;
+    width: 150px;
+    height: 160px;
+    border-color: var(--color-botones);
+    border-style: outset;
+    border-width: 2px;
 }
 .skills__line{
     
     flex-direction: row;
     align-items: flex-start;
     gap: 16px;
-
     padding: 0px;
     gap: 16px;
     flex: none;
@@ -167,6 +188,9 @@ section .skills {
     flex-grow: 0;
 
 } 
+
+/* 
+
 .skills__box{
     
     flex-direction: column;
@@ -178,13 +202,35 @@ section .skills {
     width: 150px;
     height: 160px;
 }
-
-
-.main{
+*/
+section.hobbies div.hobbies_line {
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
     justify-content: space-around;
-}*/
+    width: 100%;
+}
+section.hobbies div.hobbies_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 36px;
+    background-color: var(--color-cajas);
+    margin: 22px 15px 22px 0;
+    width: 150px;
+    height: 160px;
+}
+
+section.hobbies div.hobbies_box ul {
+    padding: 0;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--color-titulos);
+    text-align: center;
+}
+
+/*SOBRE MI*/
 .sobre-texto h2{
     color: white;
     font-size: 65px;
@@ -243,6 +289,11 @@ button:hover{
 .productos li{
     display: inline-block;
 }
+section.experience div.experience_box{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+}
 
 .card{
     width: fit-content;
@@ -258,6 +309,10 @@ button:hover{
     max-width: 100%;
     height: auto;
     margin: 0 5px 0 10px;
+}
+
+.card-text{
+    color: white;
 }
 
 .pra p{
