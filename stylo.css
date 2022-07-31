@@ -282,20 +282,11 @@ button:hover{
     text-align: center;
 }
 
-.productos{
-    width: 940px;
-    margin: 0 auto;
-}
-.productos li{
-    display: inline-block;
-}
-section.experience div.experience_box{
+
+.card{
     display: flex;
     justify-content: center;
     margin-bottom: 5%;
-}
-
-.card{
     width: fit-content;
     padding: 20px 300px;
     background: #191919;
@@ -315,14 +306,6 @@ section.experience div.experience_box{
     color: white;
 }
 
-.pra p{
-    color: #fcfc;
-    font-size: 10px;
-    line-height: 27px;
-    margin-bottom: 25px;
-    margin-left: 165px;
-    margin-top: -200px;
-}
 .card .button{
     background-color: #f9004d;
     color: white;
