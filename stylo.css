@@ -58,6 +58,7 @@ nav ul li a:hover{
 
 }
 #descarga{
+    width: fit-content;
     margin-top: 10px;
     background-color: #f9004d;
     color: white;
