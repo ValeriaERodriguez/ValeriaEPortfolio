@@ -113,18 +113,10 @@ h4{
     display: flex;
     flex-direction: column;
 }
-.sobre-mi img{
-    margin: -20px 97px;
-    display: flex;
-    height: auto;
-    width: 200px;
-    position: absolute;
-    flex-direction: column;
-}
+
 
 .sobre-texto{
     display: flex;
-    width: 324px;
     margin: 15px 35px;
     flex-direction: column;
 }
@@ -256,7 +248,7 @@ div.skills__box{
     width: 100%;
     font-size: 2.5vh;
     display: block;
-    color: #fcfc;
+    color: white;
     letter-spacing: 1px;
     line-height: 28px;
     margin-bottom: 45px;
