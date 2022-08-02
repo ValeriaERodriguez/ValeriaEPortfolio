@@ -170,7 +170,7 @@ div.skills__box{
     flex-wrap: wrap;
     padding: 16px;
     background-color: var(--color-cajas);
-    margin: 22px 15px 22px 0;
+    margin: 22px 15px 22px 10px;
     width: 120px;
     height: 160px;
     border-color: var(--color-botones);
