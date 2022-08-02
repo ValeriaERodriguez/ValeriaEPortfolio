@@ -176,6 +176,7 @@ div.skills__box{
     border-color: var(--color-botones);
     border-style: outset;
     border-width: 2px;
+    color: white;
 }
 .skills__line{
     display: flex;
