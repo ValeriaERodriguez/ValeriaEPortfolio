@@ -130,13 +130,10 @@ h4{
 }
 #skills {
     display: flex;
-    
     align-items: center;
-    
     flex-wrap: wrap;
     margin-top: 2vh;
     width: 150vh;
-   
     background: #4639ff;
     border-radius: 2vh;
     padding: 2%;
@@ -200,6 +197,14 @@ div.skills__box{
     padding: 2%;
     padding-block: 5%;
 }
+
+.hobbies__title{
+    width: 100%;
+    text-align: center;
+    font-size: 5vh;
+    padding-bottom: 3%;
+    animation: Opacidad 4s ease;
+}
 .hobbies__line {
     display: flex;
     background-color: #4639ff;
@@ -220,6 +225,18 @@ div.skills__box{
 }
 
 /*SOBRE MI*/
+.sobreMi {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
+    position: relative;
+    align-self: center;
+    border-radius: 2vh;
+    padding-inline: 2%;
+    text-align: center;
+}
 .sobre-texto h2{
     color: white;
     font-size: 65px;
@@ -234,11 +251,14 @@ div.skills__box{
     text-transform: capitalize;
 }
 .sobre-texto p{
-    
+    text-align: left;
+    animation: Opacidad 2s ease-in;
+    width: 100%;
+    font-size: 2.5vh;
+    display: block;
     color: #fcfc;
     letter-spacing: 1px;
     line-height: 28px;
-    font-size: 10px;
     margin-bottom: 45px;
     margin: 0 auto;
 }
@@ -258,6 +278,7 @@ button:hover{
     cursor: pointer;
 }
 
+/*PROYECTOS SECTION*/
 .proyecto{
     background:#101010;
     width: 100%;
@@ -331,7 +352,7 @@ button:hover{
     cursor: pointer;
 }
 
-
+/*CONTACTO SECTION*/
 
 .contacto{
     width: 100%;
