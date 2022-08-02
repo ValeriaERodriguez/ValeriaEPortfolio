@@ -223,7 +223,7 @@ div.skills__box{
     flex-direction: row;
     flex-wrap: wrap;
     padding: 16px;
-    margin: 22px 15px 22px 0;
+    margin: 22px 50px 22px 30px;
     width: 120px;
     height: 160px;
     border-color: var(--color-botones);
